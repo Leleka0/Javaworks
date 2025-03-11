@@ -5,13 +5,13 @@ public class Laba22 {
         Scanner scanner = new Scanner(System.in);
         
         
-        System.out.print("Введіть a: ");
+        System.out.print("Введiть a: ");
         double a = scanner.nextDouble();
         
-        System.out.print("Введіть b: ");
+        System.out.print("Введiть b: ");
         double b = scanner.nextDouble();
         
-        System.out.print("Введіть d: ");
+        System.out.print("Введiть d: ");
         double d = scanner.nextDouble();
         
         
