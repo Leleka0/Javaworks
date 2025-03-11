@@ -1,5 +1,3 @@
-import java.util.Locale;
-
 public class Laba3 {
     public static void main(String[] args) {
         double c = -1.0;
