@@ -1,8 +1,8 @@
 public class Laba31 {
     public static void main(String[] args) {
-        double a = 1.0;  // Задайте значення a
-        double b = 1.0;  // Задайте значення b
-        double T = 5.0;  // Задайте верхню межу x
+        double a = 1.0;  
+        double b = 1.0;  
+        double T = 5.0;  
         double hx = 0.2;
 
         double maxY = Double.NEGATIVE_INFINITY;
@@ -18,6 +18,6 @@ public class Laba31 {
             }
         }
 
-        System.out.printf("Максимальне значення y: %.6f при x = %.6f\n", maxY, maxX);
+        System.out.println("Максимальне значення y: " + maxY + " при x = " + maxX);
     }
 }
