@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class Laba3 {
     public static void main(String[] args) {
         double c = -1.0;
@@ -8,20 +10,17 @@ public class Laba3 {
             ha = -ha;
         }
 
+        double maxY = Double.NEGATIVE_INFINITY;
         double bestA = 0;
 
-        double a = c;
-
-        double sinAlphaSquared = Math.pow(Math.sin(alpha), 2);
-        double maxY = a / Math.log(sinAlphaSquared); 
-        bestA = a; 
         
-        a += ha;
-
+        double a = c;
         while (a <= 0) {
-            sinAlphaSquared = Math.pow(Math.sin(alpha), 2);
+            double sinAlphaSquared = Math.pow(Math.sin(alpha), 2);
             if (sinAlphaSquared > 0) {
                 double y = a / Math.log(sinAlphaSquared);
+                
+                
                 System.out.println("a = " + a + "  y = " + y);
 
                 if (y > maxY) {
@@ -31,6 +30,7 @@ public class Laba3 {
             } else {
                 System.out.println("Помилка: некоректне значення під логарифмом");
             }
+
 
             a += ha;
         }
