@@ -1,5 +1,4 @@
 
-
-public class laba4-2 {
+public class laba4-1 {
     
 }
