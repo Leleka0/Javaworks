@@ -34,7 +34,7 @@ public class laba41 {
             }
         }
 
-        
+
         System.out.print("Оновлений масив: ");
         for (int i = 0; i < newArr.length; i++) {
             System.out.print(newArr[i] + " ");
@@ -42,4 +42,3 @@ public class laba41 {
         System.out.println();
     }
 }
-

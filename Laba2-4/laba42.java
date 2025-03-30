@@ -27,7 +27,7 @@ public class laba42 {
         }
         
         
-        System.out.println("Кількість елементів, більших за сусідів: " + count);
+        System.out.println("Кiлькiсть елементiв, бiльших за сусiдiв: " + count);
         
         in.close();
     }
