@@ -1,5 +1,3 @@
-
-
 public class laba5 {
     public static void main(String[] args) {
         int n = 4, m = 5;
