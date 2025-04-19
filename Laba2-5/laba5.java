@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class laba5 {
     public static void main(String[] args) {
@@ -30,7 +30,7 @@ public class laba5 {
         }
 
         
-        System.out.println("\nВектор добутків по стовпцях:");
+        System.out.println("Вектор добуткiв по стовпцях:");
         for (int j = 0; j < m; j++) {
             System.out.print(P[j] + "\t");
         }
