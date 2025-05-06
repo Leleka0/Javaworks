@@ -1,15 +1,15 @@
 public class laba61 {
     public static void main(String[] args) {
-        String input = "А роза впала на лапу Азора";
+        String input = "Три психи пили Пилипихи спирт";
         
         
         input = input.replaceAll("\\s+", "").toLowerCase();
         
         
         if (isPalindrome(input)) {
-            System.out.println("Рядок є паліндромом.");
+            System.out.println("Рядок є палiндромом.");
         } else {
-            System.out.println("Рядок не є паліндромом.");
+            System.out.println("Рядок не є палiндромом.");
         }
     }
 
