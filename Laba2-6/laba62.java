@@ -1,3 +1,4 @@
+//Дано текст. Видалити всі входження th
 public class laba62 {
     public static void main(String[] args) {
        
