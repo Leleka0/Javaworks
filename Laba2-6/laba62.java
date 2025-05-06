@@ -2,7 +2,7 @@
 public class laba62 {
     public static void main(String[] args) {
        
-        String text = "The thunderstorm that threatened the valley throughout the day finally faded. Those who had gathered in the theatre thanked their luck, thinking the thunder would ruin the thrilling theme night.";
+        String text = "The thunderstorm that threatened the valley throughout the day finally faded.";
 
         
         String result = text.replaceAll("th", "");
