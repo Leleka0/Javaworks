@@ -5,7 +5,7 @@ class AcademGroup {
 
     
     public AcademGroup() {
-        this.groupName = "Невідома група";
+        this.groupName = "Невiдома група";
         this.studentCount = 0;
     }
 
@@ -22,17 +22,17 @@ class AcademGroup {
 
    
     public void printStudentCount() {
-        System.out.println("Кількість студентів: " + studentCount);
+        System.out.println("Кiлькiсть студентiв: " + studentCount);
     }
 
     
     public void printInfo() {
-        System.out.println("Група: " + groupName + ", Студентів: " + studentCount);
+        System.out.println("Група: " + groupName + ", Студентiв: " + studentCount);
     }
 
     
     public void printInfo(String prefix) {
-        System.out.println(prefix + " -> Група: " + groupName + ", Студентів: " + studentCount);
+        System.out.println(prefix + " -> Група: " + groupName + ", Студентiв: " + studentCount);
     }
 }
 
@@ -48,11 +48,11 @@ public class laba71 {
         System.out.println(); 
 
         
-        AcademGroup g2 = new AcademGroup("КН-23", 28);
+        AcademGroup g2 = new AcademGroup("ТТ-201", 16);
         g2.printGroupName();       
         g2.printStudentCount();     
         g2.printInfo();             
-        g2.printInfo("Інформація"); 
+        g2.printInfo("Iнформацiя"); 
     }
 }
 
