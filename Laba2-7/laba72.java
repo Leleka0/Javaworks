@@ -4,53 +4,43 @@
 // Базовий клас — академгрупа
 class AcademGroup {
     protected String groupName;
-    private int studentCount; 
+    protected int studentCount;
 
     public AcademGroup(String groupName, int studentCount) {
         this.groupName = groupName;
         this.studentCount = studentCount;
     }
 
-    
     public int getStudentCount() {
         return studentCount;
     }
 
-    
-    public void setStudentCount(int count) {
-        this.studentCount = count;
-    }
-
     public void printInfo() {
-        System.out.println("Академгрупа: " + groupName + ", Студентів: " + studentCount);
+        System.out.println("Академгрупа: " + groupName + ", Студентiв: " + studentCount);
     }
 }
-
 
 class Stream extends AcademGroup {
     private String streamName;
     private AcademGroup[] groups;
 
     public Stream(String streamName, AcademGroup[] groups) {
-        super(streamName, 0); 
+        super(streamName, 0);
         this.streamName = streamName;
         this.groups = groups;
 
-        
         int total = 0;
         for (AcademGroup g : groups) {
             total += g.getStudentCount();
         }
-        
-        setStudentCount(total);
+        this.studentCount = total;
     }
 
     @Override
     public void printInfo() {
-        System.out.println("Потік: " + streamName + ", Загальна кількість студентів: " + getStudentCount());
+        System.out.println("Потiк: " + streamName + ", Загальна кiлькiсть студентiв: " + studentCount);
     }
 }
-
 
 public class laba72 {
     public static void main(String[] args) {
@@ -63,7 +53,8 @@ public class laba72 {
         AcademGroup[] elements = {g1, g2, g3, s1};
 
         for (AcademGroup ag : elements) {
-            ag.printInfo(); 
+            ag.printInfo();
         }
     }
 }
+
