@@ -67,7 +67,7 @@ public class laba73 {
         Person p1 = new Employee("Стiв Джопес", 35, "SuperDuperTechCentr", "Розробник");
         Person p2 = new Student("Тимофiй Ширай", 19, "ТТ-201", 2);
         Person p3 = new Employee("Марiя Тереза", 40, "MegaUltraServes", "Менеджер");
-        Person p4 = new Student("Людвiг Бетховен", 20, "ТТ-301", 3);
+        Person p4 = new Student("Людвiг ван Бетховен", 20, "ТТ-301", 3);
 
        
         Person[] people = {p1, p2, p3, p4};
