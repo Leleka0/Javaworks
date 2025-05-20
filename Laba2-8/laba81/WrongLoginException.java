@@ -1,6 +1,6 @@
 public class WrongLoginException extends Exception {
     public WrongLoginException() {
-        super("Wrong login.");
+        super("Невірний логін.");
     }
 
     public WrongLoginException(String message) {

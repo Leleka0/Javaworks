@@ -4,24 +4,24 @@ public class Main {
         try {
             
             if (!login.matches("[a-zA-Z0-9_]+") || login.length() >= 20) {
-                throw new WrongLoginException("Login must be less than 20 characters and contain only letters, digits, or underscore.");
+                throw new WrongLoginException("Логін повинен містити тільки латинські літери, цифри або знак підкреслення і бути коротшим за 20 символів..");
             }
 
             
             if (!password.matches("[a-zA-Z0-9_]+") || password.length() >= 20) {
-                throw new WrongPasswordException("Password must be less than 20 characters and contain only letters, digits, or underscore.");
+                throw new WrongPasswordException("Пароль повинен містити тільки латинські літери, цифри або знак підкреслення і бути коротшим за 20 символів.");
             }
 
             
             if (!password.equals(confirmPassword)) {
-                throw new WrongPasswordException("Passwords do not match.");
+                throw new WrongPasswordException("Пароль і підтвердження пароля не збігаються.");
             }
 
            
             return true;
 
         } catch (WrongLoginException | WrongPasswordException e) {
-            System.out.println("Error: " + e.getMessage());
+            System.out.println("Помилка: " + e.getMessage());
             return false;
         }
     }
