@@ -1,3 +1,4 @@
+package laba71;
 //Клас, який представляє академгрупу з методами виведення на екран назви групи і кількості студентів в ній
 class AcademGroup {
     private String groupName;
