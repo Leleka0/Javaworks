@@ -12,7 +12,7 @@ class AcademGroup {
 
     
     public void printInfo() {
-        System.out.println("Академгрупа: " + groupName + ", Студентів: " + studentCount);
+        System.out.println("Академгрупа: " + groupName + ", Студентiв: " + studentCount);
     }
 }
 
@@ -36,7 +36,7 @@ class Stream extends AcademGroup {
     
     @Override
     public void printInfo() {
-        System.out.println("Потік: " + streamName + ", Загальна кількість студентів: " + studentCount);
+        System.out.println("Потiк: " + streamName + ", Загальна кiлькiсть студентiв: " + studentCount);
     }
 }
 
